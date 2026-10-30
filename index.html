@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisa: Tags Semânticas do HTML5</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Guia de Pesquisa: Tags Semânticas do HTML5</h1>
+    <p>Aprenda a função de cada tag e como elas organizam a estrutura de uma página web.</p>
+  </header>
+
+  <nav>
+    <a href="#introducao">Introdução</a>
+    <a href="#tags-principais">Tags Principais</a>
+    <a href="#dicas">Dicas</a>
+  </nav>
+
+  <div class="layout-container">
+
+    <main>
+
+      <section id="introducao">
+        <h2>O que é HTML Semântico?</h2>
+        <p>O HTML semântico utiliza tags que expressam o <strong>significado</strong> do conteúdo contido nelas. Em vez de usar apenas a tag genérica <code>&lt;div&gt;</code>, usamos tags específicas para informar a navegadores, leitores de tela e motores de busca (como o Google) o papel de cada parte da página.</p>
+      </section>
+
+      <section id="tags-principais">
+        <h2>Pesquisa sobre as Principais Tags</h2>
+
+        <article>
+          <h3>1. Tag &lt;header&gt;</h3>
+          <p><strong>Para que serve:</strong> Representa o cabeçalho de uma página ou de uma seção. Geralmente contém o título principal, logotipos, slogans ou campos de pesquisa.</p>
+        </article>
+
+        <article>
+          <h3>2. Tag &lt;nav&gt;</h3>
+          <p><strong>Para que serve:</strong> Delimita um grupo de links de navegação principal. Facilita para os leitores de tela encontrarem rapidamente o menu do site.</p>
+        </article>
+
+        <article>
+          <h3>3. Tag &lt;main&gt;</h3>
+          <p><strong>Para que serve:</strong> Envolve o conteúdo central da página. Deve haver apenas um elemento <code>&lt;main&gt;</code> por página e ele não deve conter elementos repetitivos como rodapés ou menus gerais.</p>
+        </article>
+
+        <article>
+          <h3>4. Tag &lt;section&gt;</h3>
+          <p><strong>Para que serve:</strong> Agrupa conteúdos relacionados por um mesmo tema dentro do documento. Geralmente possui seu próprio título (<code>&lt;h2&gt;</code>, <code>&lt;h3&gt;</code>).</p>
+        </article>
+
+        <article>
+          <h3>5. Tag &lt;article&gt;</h3>
+          <p><strong>Para que serve:</strong> Representa um bloco de conteúdo autônomo e independente (como uma notícia, post de blog ou comentário) que faz sentido por si só.</p>
+        </article>
+
+        <article>
+          <h3>6. Tag &lt;aside&gt;</h3>
+          <p><strong>Para que serve:</strong> Define um conteúdo complementar ou lateral indiretamente relacionado ao conteúdo ao seu redor (ex: barras laterais, anúncios ou links extras).</p>
+        </article>
+
+        <article>
+          <h3>7. Tag &lt;footer&gt;</h3>
+          <p><strong>Para que serve:</strong> Representa o rodapé do site ou de uma seção. Costuma conter informações de direitos autorais, dados de contato e links para termos de uso.</p>
+        </article>
+
+      </section>
+
+    </main>
+
+    <aside id="dicas">
+      <h3>Resumo Rápido</h3>
+      <p>Lembre-se das regras essenciais:</p>
+      <ul>
+        <li>Apenas 1 <code>&lt;main&gt;</code> por página.</li>
+        <li>Evite usar <code>&lt;div&gt;</code> quando houver uma tag semântica apropriada.</li>
+        <li>A semântica melhora o SEO e a acessibilidade.</li>
+      </ul>
+      <p>Mais detalhes na <a href="https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics" target="_blank">Documentação MDN</a>.</p>
+    </aside>
+
+  </div>
+
+  <footer>
+    <p>&copy; 2026 Página de Pesquisa sobre HTML5 Semântico.</p>
+  </footer>
+
+</body>
+</html>
